@@ -21,3 +21,4 @@ function getCareers() {
     })
     .catch((error) => console.error(error));
 }
+getCareers();

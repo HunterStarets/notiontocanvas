@@ -7,7 +7,7 @@ const courseNames = [
   "LBST-2301",
   "MATH-2164",
 ];
-getAssignments(courseIds[2]);
+getAssignments(courseIds[0]);
 function getAssignments(COURSE_ID) {
   // Set up the Canvas API endpoint and your API key
   const API_URL =

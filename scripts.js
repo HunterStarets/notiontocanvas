@@ -12,6 +12,7 @@ function getCareers() {
   fetch(`${API_URL}/courses/${COURSE_ID}/assignments`, {
     headers: {
       Authorization: `Bearer ${API_KEY}`,
+      Origin: "https://hunterstarets.github.io",
     },
   })
     .then((response) => response.json())

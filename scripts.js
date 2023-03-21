@@ -10,4 +10,4 @@ const response = await fetch(assignmentsUrl, {
 });
 const assignments = await response.json();
 
-document.getElementById("output").innerHTML = assignments;
+console.log(assignments);

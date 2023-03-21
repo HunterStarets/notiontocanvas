@@ -9,7 +9,7 @@ function getCareers() {
   const COURSE_ID = "190605";
 
   // Get the assignments for the course using the Canvas API
-  fetch(`${API_URL}/courses/${COURSE_ID}/assignments`, {
+  fetch(`${API_URL}/courses/${COURSE_ID}/assignments?per_page=100`, {
     headers: {
       Authorization: `Bearer ${API_KEY}`,
       Origin: "https://hunterstarets.github.io",

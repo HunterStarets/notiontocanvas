@@ -13,3 +13,4 @@ async function getAssignments() {
 
   console.log(assignments);
 }
+getAssignments();
